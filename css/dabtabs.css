@@ -679,6 +679,12 @@ blockquote {
 }
 
 @media (max-width: 767px) {
+  .reviews-content {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
   .modal-wrapper {
     padding: 21px;
   }
